@@ -5,7 +5,7 @@
     },
 
 	"overrides": [
-        {"predicate": {"custom_model_data":438900}, "model": "vplib:custom_crafting/v1/gui/slot_holder"},
-        {"predicate": {"custom_model_data":438901}, "model": "vplib:custom_crafting/v1/block/universal_crafting_table"}
+        {"predicate": {"custom_model_data":438900}, "model": "vplib:custom_crafting/__ver/gui/slot_holder"},
+        {"predicate": {"custom_model_data":438901}, "model": "vplib:custom_crafting/__ver/block/universal_crafting_table"}
 	]
 }

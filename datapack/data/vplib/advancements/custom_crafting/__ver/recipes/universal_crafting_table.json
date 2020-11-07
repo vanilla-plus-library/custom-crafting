@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vplib:custom_crafting/__ver/universal_crafting_table"
+      }
+    }
+  },
+  "rewards": {
+    "function": "vplib:custom_crafting/__ver/recipes/universal_crafting_table",
+    "loot": [
+      "vplib:custom_crafting/__ver/block/universal_crafting_table"
+    ]
+  }
+}

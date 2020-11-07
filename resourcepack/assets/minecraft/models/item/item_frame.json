@@ -5,6 +5,6 @@
     },
 
 	"overrides": [
-        {"predicate": {"custom_model_data":438900}, "model": "vplib:custom_crafting/v1/item/universal_crafting_table"}
+        {"predicate": {"custom_model_data":438900}, "model": "vplib:custom_crafting/__ver/item/universal_crafting_table"}
 	]
 }
