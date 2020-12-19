@@ -7,10 +7,10 @@
 # Set storage
 
 ## Current
-execute store result storage vplib:data modules.custom_crafting.version.current int 1 run scoreboard players get #vplib.custom_crafting.current vplib.load
+execute store result storage vplib:data modules.custom_crafting.version.current int 1 run scoreboard players get #vplib.custom_crafting.current load
 
 ## Breaking
-execute store result storage vplib:data modules.custom_crafting.version.breaking int 1 run scoreboard players get #vplib.custom_crafting.breaking vplib.load
+execute store result storage vplib:data modules.custom_crafting.version.breaking int 1 run scoreboard players get #vplib.custom_crafting.breaking load
 
 # DEBUG Message
 tellraw @a[tag=vplib.debug] [{"text":"[Debug]: ","color":"yellow","bold":true},{"text":"Loaded Vanilla+ Library: Custom Crafting __ver","color":"white","bold":false}]
@@ -24,7 +24,7 @@ scoreboard objectives add vplib.recipe dummy
 scoreboard players reset * vplib.recipe
 scoreboard players set $register vplib.recipe 0
 
-scoreboard players set #vplib.load vplib.recipe 0
+scoreboard players set #load vplib.recipe 0
 schedule function vplib:custom_crafting/__ver/load/recipes 5t replace
 
 
