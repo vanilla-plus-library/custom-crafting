@@ -13,16 +13,16 @@ scoreboard players set #recipe vplib.temp -1
 scoreboard players set #amount vplib.temp 0
 
 # Load recipes
-execute if score #load vplib.recipe matches 1 run function #vplib:custom_crafting/api/table/recipes/check/1_slot
-execute if score #load vplib.recipe matches 2 run function #vplib:custom_crafting/api/table/recipes/check/2_slots
-execute if score #load vplib.recipe matches 3 run function #vplib:custom_crafting/api/table/recipes/check/3_slots
-execute if score #load vplib.recipe matches 4 run function #vplib:custom_crafting/api/table/recipes/check/4_slots
-execute if score #load vplib.recipe matches 5 run function #vplib:custom_crafting/api/table/recipes/check/5_slots
-execute if score #load vplib.recipe matches 6 run function #vplib:custom_crafting/api/table/recipes/check/6_slots
-execute if score #load vplib.recipe matches 7 run function #vplib:custom_crafting/api/table/recipes/check/7_slots
-execute if score #load vplib.recipe matches 8 run function #vplib:custom_crafting/api/table/recipes/check/8_slots
-execute if score #load vplib.recipe matches 9 run function #vplib:custom_crafting/api/table/recipes/check/9_slots
-execute if score #load vplib.recipe matches 10 run function #vplib:custom_crafting/api/table/recipes/check/any_slots
+execute if score #load vplib.recipe matches 1 run function #vplib:custom_crafting/api/table/recipes/1_slot
+execute if score #load vplib.recipe matches 2 run function #vplib:custom_crafting/api/table/recipes/2_slots
+execute if score #load vplib.recipe matches 3 run function #vplib:custom_crafting/api/table/recipes/3_slots
+execute if score #load vplib.recipe matches 4 run function #vplib:custom_crafting/api/table/recipes/4_slots
+execute if score #load vplib.recipe matches 5 run function #vplib:custom_crafting/api/table/recipes/5_slots
+execute if score #load vplib.recipe matches 6 run function #vplib:custom_crafting/api/table/recipes/6_slots
+execute if score #load vplib.recipe matches 7 run function #vplib:custom_crafting/api/table/recipes/7_slots
+execute if score #load vplib.recipe matches 8 run function #vplib:custom_crafting/api/table/recipes/8_slots
+execute if score #load vplib.recipe matches 9 run function #vplib:custom_crafting/api/table/recipes/9_slots
+execute if score #load vplib.recipe matches 10 run function #vplib:custom_crafting/api/table/recipes/any_slots
 execute if score #load vplib.recipe matches 11 run function #vplib:custom_crafting/api/table/recipes/register
 
 # Update GUIs
