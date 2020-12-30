@@ -1,7 +1,7 @@
 #> vplib:custom_crafting/__ver/block/table/gui/result/show_output
 
 # Set result slot holder
-replaceitem block ~ ~ ~ container.16 minecraft:gray_stained_glass_pane{HideFlags:63,CustomModelData:438900,vplib:{slot_holder:1b,type:2b},display:{Name:'{"text":""}'}}
+item block ~ ~ ~ container.16 replace minecraft:gray_stained_glass_pane{HideFlags: 63, CustomModelData: 438900, vplib: {slot_holder: 1b, type: 2b}, display: {Name: '{"text":""}'}}
 
 # Get item
 data modify storage vplib:temp item set from storage vplib:temp savedData.recipeOutput

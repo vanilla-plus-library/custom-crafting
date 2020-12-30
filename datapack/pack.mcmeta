@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 6,
+        "pack_format": 7,
         "description": [{"text":"Vanilla+ Library","color":"green"},{"text":"\nCustom Crafting __ver","color":"gray"}]
     },
     "release": {

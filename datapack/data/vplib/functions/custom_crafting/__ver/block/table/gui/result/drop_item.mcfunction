@@ -15,4 +15,4 @@ clear @a[distance=..8] minecraft:gray_stained_glass_pane{vplib:{slot_holder:1b}}
 
 
 # Set result slot holder
-replaceitem block ~ ~ ~ container.16 minecraft:gray_stained_glass_pane{HideFlags:63,CustomModelData:438900,vplib:{slot_holder:1b,type:2b},display:{Name:'{"text":""}'}}
+item block ~ ~ ~ container.16 replace minecraft:gray_stained_glass_pane{HideFlags: 63, CustomModelData: 438900, vplib: {slot_holder: 1b, type: 2b}, display: {Name: '{"text":""}'}}

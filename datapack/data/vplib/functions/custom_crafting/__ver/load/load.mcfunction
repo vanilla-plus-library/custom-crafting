@@ -7,10 +7,10 @@
 # Set storage
 
 ## Current
-execute store result storage vplib:data modules.custom_crafting.version.current int 1 run scoreboard players get #vplib.custom_crafting.current load
+execute store result storage vplib:data modules.custom_crafting.version.current int 1 run scoreboard players get #vplib.custom_crafting.current vplib.load
 
 ## Breaking
-execute store result storage vplib:data modules.custom_crafting.version.breaking int 1 run scoreboard players get #vplib.custom_crafting.breaking load
+execute store result storage vplib:data modules.custom_crafting.version.breaking int 1 run scoreboard players get #vplib.custom_crafting.breaking vplib.load
 
 # DEBUG Message
 tellraw @a[tag=vplib.debug] [{"text":"[Debug]: ","color":"yellow","bold":true},{"text":"Loaded Vanilla+ Library: Custom Crafting __ver","color":"white","bold":false}]
