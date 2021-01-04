@@ -4,4 +4,4 @@
 #execute store result score #gametime vplib.data run time query gametime
 
 # As blocks
-execute as @e[type=minecraft:armor_stand,tag=vplib.block.universal_crafting_table] at @s run function vplib:custom_crafting/__ver/block/table/main
+execute as @e[type=#vplib:block_placement/__ver/block_marker,tag=vplib.block] at @s run function vplib:custom_crafting/__ver/block/tick/1

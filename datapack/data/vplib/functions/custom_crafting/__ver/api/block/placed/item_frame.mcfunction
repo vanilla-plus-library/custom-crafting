@@ -1,4 +1,4 @@
-#> vplib:custom_crafting/__ver/api/block/placed_item_frame
+#> vplib:custom_crafting/__ver/api/block/placed/item_frame
 # Description: Placed item frame.
 # From: #vplib:block_placement/api/block/placed_item_frame
 

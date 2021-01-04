@@ -8,4 +8,4 @@ execute unless block ~ ~ ~ minecraft:barrel run function vplib:custom_crafting/_
 execute if score #destroyed vplib.temp matches 0 if block ~ ~ ~ minecraft:barrel[open=true] run function vplib:custom_crafting/__ver/block/table/gui/main
 
 # Hopper lock
-execute if block ~ ~-1 ~ minecraft:hopper run data modify block ~ ~-1 ~ TransferCooldown set value 24000
+execute if block ~ ~-1 ~ minecraft:hopper run data modify block ~ ~-1 ~ TransferCooldown set value 10
