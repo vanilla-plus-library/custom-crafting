@@ -10,5 +10,5 @@ execute at @p positioned ~ ~0.5 ~ run function vplib:custom_crafting/__ver/block
 
 
 # Reset result slot
-item block ~ ~ ~ container.16 replace minecraft:air
+item replace block ~ ~ ~ container.16 with minecraft:air
 data remove storage vplib:temp containerResult
