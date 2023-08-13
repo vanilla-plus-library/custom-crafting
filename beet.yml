@@ -1,0 +1,16 @@
+name: custom-crafting
+
+data_pack:
+  pack_format: 7
+  load:
+    - datapack
+
+resource_pack:
+  pack_format: 7
+  load:
+    - resourcepack
+
+output: dist
+
+pipeline:
+  - mecha

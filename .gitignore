@@ -1,1 +1,4 @@
 releases/
+dist
+.venv
+.beet_cache
